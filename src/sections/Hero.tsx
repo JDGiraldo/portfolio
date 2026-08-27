@@ -10,7 +10,7 @@ export function Hero({ t }: { t: (value: string) => string }) {
         <h1><span>JUAN DIEGO</span><br />GIRALDO</h1>
         <div className="role"><span>{t('FULL STACK DEVELOPER')}</span><b>{t('SOFTWARE + QUALITY ENGINEERING')}</b></div>
         <p className="lede">{t('Building complete digital products—from interface and APIs to data, deployment and quality.')}</p>
-        <div className="actions"><a className="button primary" href="#projects">{t('VIEW PROJECTS')} <ArrowDownRight /></a><a className="button" href="#lab">{t('ENGINEERING LAB')}</a><a className="icon-button" aria-label="GitHub profile" href="https://github.com/" target="_blank" rel="noreferrer"><Code2 /></a></div>
+        <div className="actions"><a className="button primary" href="#projects">{t('VIEW PROJECTS')} <ArrowDownRight /></a><a className="button" href="#lab">{t('ENGINEERING LAB')}</a><a className="icon-button" aria-label="GitHub profile" href="https://github.com/JDGiraldo" target="_blank" rel="noreferrer"><Code2 /></a></div>
       </div>
       <div className="terminal-panel" aria-label="System status terminal">
         <div className="terminal-bar"><span><i /><i /><i /></span><b>JD@QA-LAB:~</b><em>SYS.01</em></div>
