@@ -1,6 +1,7 @@
 export type Language = 'en' | 'es'
 
 const es: Record<string, string> = {
+  'INTERACTIVE PROJECT INDEX': 'ÍNDICE INTERACTIVO DE PROYECTOS', 'EXPLORE THE': 'EXPLORA EL', 'PROJECT CORE': 'NÚCLEO DE PROYECTOS', 'Five real products. One connected engineering system.': 'Cinco productos reales. Un sistema de ingeniería conectado.', 'VIEW LIVE PROJECT': 'VER PROYECTO EN VIVO',
   'ABOUT': 'SOBRE MÍ', 'EXPERIENCE': 'EXPERIENCIA', 'PROJECTS': 'PROYECTOS', 'QA LAB': 'LAB QA', 'STACK': 'TECNOLOGÍAS', 'CONTACT': 'CONTACTO',
   'ENGINEERING LAB': 'LAB DE INGENIERÍA', 'ENGINEERING SYSTEM ONLINE': 'SISTEMA DE INGENIERÍA EN LÍNEA', 'FULL STACK DEVELOPER': 'DESARROLLADOR FULL STACK', 'SOFTWARE + QUALITY ENGINEERING': 'SOFTWARE + INGENIERÍA DE CALIDAD',
   'Building complete digital products—from interface and APIs to data, deployment and quality.': 'Construyo productos digitales completos: desde la interfaz y las APIs hasta los datos, el despliegue y la calidad.', 'loading engineering environment...': 'cargando entorno de ingeniería...',

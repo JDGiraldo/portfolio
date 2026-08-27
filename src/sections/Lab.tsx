@@ -13,8 +13,8 @@ const configuration: [string, string][] = [
 export function Lab({ t }: { t: (value: string) => string }) {
   return <section id="lab" className="section lab-section">
     <SectionHeading t={t} index="04" eyebrow="PRODUCT SYSTEMS" title="ENGINEERING LAB" copy="The technical layers used to design, build, validate and deliver complete digital products." />
-    <div className="lab-grid">
-      {labs.map(l => <article className="lab-card reveal" key={l.id}>
+    <div className="lab-grid reveal reveal-group">
+      {labs.map(l => <article className="lab-card" key={l.id}>
         <div><span>{l.id} / MODULE</span><i>● {l.status}</i></div>
         <h3>{t(l.title)}</h3>
         <p>{t(l.detail)}</p>
