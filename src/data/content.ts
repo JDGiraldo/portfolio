@@ -1,4 +1,8 @@
-export const stack = {
+export type Lab = { id: string; title: string; detail: string; status: string }
+export type Case = { title: string; type: string; challenge: string; approach: string; testing: string[]; tools: string; outcome: string }
+export type Repository = [name: string, description: string, tag: string]
+
+export const stack: Record<string, string[]> = {
   'Quality engineering': ['Playwright', 'Selenium', 'Serenity', 'Cucumber', 'Postman', 'Allure', 'Manual Testing', 'Accessibility Testing'],
   Development: ['React', 'TypeScript', 'JavaScript', 'Node.js', 'NestJS', 'Laravel'],
   Database: ['PostgreSQL', 'MySQL', 'MongoDB'],
@@ -6,7 +10,7 @@ export const stack = {
   CMS: ['WordPress', 'Joomla', 'Shopify'],
 }
 
-export const labs = [
+export const labs: Lab[] = [
   { id: '01', title: 'Frontend systems', detail: 'React · TypeScript · Responsive UI', status: 'ACTIVE' },
   { id: '02', title: 'Backend & APIs', detail: 'Node.js · NestJS · REST APIs', status: 'ACTIVE' },
   { id: '03', title: 'Data layer', detail: 'PostgreSQL · MySQL · MongoDB', status: 'READY' },
@@ -15,7 +19,7 @@ export const labs = [
   { id: '06', title: 'Delivery & CI/CD', detail: 'GitHub Actions · Docker · Deployments', status: 'ONLINE' },
 ]
 
-export const cases = [
+export const cases: Case[] = [
   {
     title: 'Manual & Functional Testing',
     type: 'Product Quality / Risk Analysis',
@@ -45,7 +49,7 @@ export const cases = [
   },
 ]
 
-export const repositories = [
+export const repositories: Repository[] = [
   ['Playwright Automation Lab', 'E2E test architecture and reporting', 'PLAYWRIGHT / TS'],
   ['API Testing Lab', 'API contracts, collections and checks', 'POSTMAN / CI'],
   ['Portfolio', 'This quality-focused digital command center', 'REACT / VITE'],
